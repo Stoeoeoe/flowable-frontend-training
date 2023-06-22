@@ -13,7 +13,7 @@ export const Zurich = () =>
     <StorybookForm
         payload={{}}
         sfs={`
-            trainingHelloworld: size=12 [[locationToGreet=Zurich]]        
+            helloworld: size=12 [[locationToGreet=Zurich]]        
         `}
     />
 
@@ -21,55 +21,7 @@ export const NoProperties = () =>
     <StorybookForm
         payload={{}}
         sfs={`
-            trainingHelloworld: size=12 [[]]        
-        `}
-    />
-
-export const Disabled = () =>
-    <StorybookForm
-        payload={{}}
-        sfs={`
-            helloworld: size=12 enabled=false [[]]        
-        `}
-    />
-
-export const Label = () =>
-    <StorybookForm
-        payload={{}}
-        sfs={`
-            helloworld: label=My Label size=12 [[]]        
-        `}
-    />
-
-export const Disabled = () =>
-    <StorybookForm
-        payload={{}}
-        sfs={`
-            helloworld: size=12 enabled=false [[]]        
-        `}
-    />
-
-export const Label = () =>
-    <StorybookForm
-        payload={{}}
-        sfs={`
-            helloworld: label=My Label size=12 [[]]        
-        `}
-    />
-
-export const Disabled = () =>
-    <StorybookForm
-        payload={{}}
-        sfs={`
-            helloworld: size=12 enabled=false [[]]        
-        `}
-    />
-
-export const Label = () =>
-    <StorybookForm
-        payload={{}}
-        sfs={`
-            helloworld: label=My Label size=12 [[]]        
+            helloworld: size=12 [[]]        
         `}
     />
 
